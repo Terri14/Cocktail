@@ -36,22 +36,22 @@ Search Cocktails By Name: www.thecocktaildb.com/api/json/v1/1/search.php?s=marga
 *	Searching for a cocktail by name is case-insensitive
 * API response must contain the following Schema properties:
 
-Element Name	Type	Required
-Element Name	Type	Required
-drinks	array	yes
-strDrink	string / null	yes
-strDrinkAlternative	string / null	no
-strTags	string / null	yes
-strVideo	string / null	no
-strCategory	string / null	yes
-strIBA	string / null	no
-strAlcoholic	string / null	yes
-strGlass	string / null	yes
-strInstructions (ES/DE/FR/IT/ZH-HANS/ZH-HANT)	string / null	only strInstructions
-strDrinkThumb	string / null	no
-strIngredient1-15	string / null	only strIngredient1
-strMeasure1-15	string / null	only strMeasure1
-strImageSource	string / null	no
-strImageAttribution	string / null	no
-strCreativeCommonsConfirmed	string / null	yes
-dateModified	string / null	yes
+1. Element Name	Type	Required
+2. Element Name	Type	Required
+3. drinks	array	yes
+4. strDrink	string / null	yes
+5. strDrinkAlternative	string / null	no
+6. strTags	string / null	yes
+7. strVideo	string / null	no
+8. strCategory	string / null	yes
+9. strIBA	string / null	no
+10. strAlcoholic	string / null	yes
+11. strGlass	string / null	yes
+12. strInstructions (ES/DE/FR/IT/ZH-HANS/ZH-HANT)	string / null	only strInstructions
+13. strDrinkThumb	string / null	no
+14. strIngredient1-15	string / null	only strIngredient1
+15. strMeasure1-15	string / null	only strMeasure1
+16. strImageSource	string / null	no
+17. strImageAttribution	string / null	no
+18. strCreativeCommonsConfirmed	string / null	yes
+19. dateModified	string / null	yes
