@@ -1,4 +1,4 @@
-# Cocktail
+# Cocktail Exercise
 
 # Introduction 
 
