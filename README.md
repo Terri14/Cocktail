@@ -18,9 +18,10 @@ a.	Always explain yourself clearly and let us know if any assumptions were made.
 
 # Functional Requirements
 Search Ingredients By Name: www.thecocktaildb.com/api/json/v1/1/search.php?i=vodka
-•	The system shall include a method to search by ingredient name and return the following fields: Ingredient ID (string), Ingredient (string), Description (string), Type (string), Alcohol (string) and ABV (string). 
-•	If an ingredient is non-alcoholic, Alcohol is null and ABV is null
-•	If an ingredient is alcoholic, Alcohol is yes and ABV is not null. 
+
+Markup : * The system shall include a method to search by ingredient name and return the following fields: Ingredient ID (string), Ingredient (string), Description (string), Type (string), Alcohol (string) and ABV (string). 
+          * If an ingredient is non-alcoholic, Alcohol is null and ABV is null
+          * If an ingredient is alcoholic, Alcohol is yes and ABV is not null. 
 
 Search Cocktails By Name: www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
 •	The system shall include a method to search by cocktail name. 
