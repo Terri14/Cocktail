@@ -14,8 +14,7 @@ We have proposed some requirements for the cocktail API (this list is not exhaus
 4.	Suggest two non-functional tests that you would design
 5.	Suggest a framework that could be used to automate the non-functional test above.
 
-###	Send your tests with instructions on how to execute the automated tests within 3 days
-###	Always explain yourself clearly and let us know if any assumptions were made.
+###	Send your tests with instructions on how to execute the automated tests within 3 days and always explain yourself clearly and let us know if any assumptions were made.
 
 # Functional Requirements
 Search Ingredients By Name: www.thecocktaildb.com/api/json/v1/1/search.php?i=vodka
