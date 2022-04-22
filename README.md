@@ -37,11 +37,10 @@ Search Cocktails By Name: www.thecocktaildb.com/api/json/v1/1/search.php?s=marga
 *	Searching for a cocktail by name is case-insensitive
 * API response must contain the following Schema properties:
 
-|------|-------|-------|
-|------|-------|-------|
+|Element Name|Type|Required|
+|drinks|array|yes|
 
-1. Element Name	Type	Required
-2. Element Name	Type	Required
+
 3. drinks	array	yes
 4. strDrink	string / null	yes
 5. strDrinkAlternative	string / null	no
