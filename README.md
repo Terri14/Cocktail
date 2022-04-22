@@ -38,7 +38,9 @@ Search Cocktails By Name: www.thecocktaildb.com/api/json/v1/1/search.php?s=marga
 * API response must contain the following Schema properties:
 
 |Element Name|Type|Required|
-|drinks|array|yes|
+|------------|----|--------|
+|drinks      |array  |yes|
+
 
 
 3. drinks	array	yes
