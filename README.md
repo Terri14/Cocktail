@@ -13,8 +13,9 @@ We have proposed some requirements for the cocktail API (this list is not exhaus
 3.	Automate the test cases using a language/framework of your choice.
 4.	Suggest two non-functional tests that you would design
 5.	Suggest a framework that could be used to automate the non-functional test above.
+6.	Send your tests with instructions on how to execute the automated tests within 3 days.
+7.	Always explain yourself clearly and let us know if any assumptions were made.
 
-###	Send your tests with instructions on how to execute the automated tests within 3 days and always explain yourself clearly and let us know if any assumptions were made.
 
 # Functional Requirements
 Search Ingredients By Name: www.thecocktaildb.com/api/json/v1/1/search.php?i=vodka
@@ -35,6 +36,9 @@ Search Cocktails By Name: www.thecocktaildb.com/api/json/v1/1/search.php?s=marga
 *	If the cocktail does not exist in the cocktail DB, the API shall return drinks as null. 
 *	Searching for a cocktail by name is case-insensitive
 * API response must contain the following Schema properties:
+
+|------|-------|-------|
+|------|-------|-------|
 
 1. Element Name	Type	Required
 2. Element Name	Type	Required
