@@ -1,0 +1,29 @@
+2 NON FUNCTIONAL TESTS AND SUGGESTED FRAMEWORK
+
+1. Load Testing:
+
+Description: 
+	Assess how the system performs under expected load conditions.
+Configuration: 
+	Configure the number of concurrent users, requests per second, and duration of the test.
+	Specify inputs for requests to endpoint, set number of users, loop to simulate high usage over extended period
+	Add timers to simulate realistic user times
+	Add assertions to validate responses from API
+Metrics: 
+	Measure response times, throughput, and resource utilization.
+
+2. Stress Testing:
+
+Description: 
+	Determine the system's breaking point and identify performance bottlenecks.
+Configuration: 
+	Gradually increase the load until the system becomes unstable.
+	Set concurrent users to amount that exceeds capacity
+	Loop to maintain constant load
+	Listeners: look for signs of system instability
+	Exercise with Caution!
+Metrics: 
+	Identify errors, timeouts, and resource exhaustion.
+
+Automation Framework for Non-Functional Tests:
+	Apache JMeter: simulates large number of users making request to the API and measure response times

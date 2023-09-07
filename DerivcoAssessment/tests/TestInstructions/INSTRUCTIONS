@@ -1,0 +1,31 @@
+INSTRUCTIONS:
+
+    Tests are written in python 3.11, PYCHARM Community Edition
+    Following packages were installed:
+        pytest
+        jsonschema
+        jsonschema-specifications
+        selenium
+        requests
+    Tests:
+
+    In Pycharm, once all required packages are installed using pytest framework run by clicking
+    the green play icon displayed on the left hand side index bar on same line where test is defined:
+    Alternatively click play button at class level to run all the tests contained in the class.
+
+        test_Api.py - class TestApi(BaseClass)
+        1. test_search_ingredients_by_name(self, ingredient_name, expected_alcohol_status):
+            - Test searching ingredients by name.
+            - Executes 3 times
+        2. test_search_cocktails_by_name(self, cocktail_name, expected_result):
+	        - Test searching for cocktails by name using the API.
+            - Executes 3 times
+        3. test_list_cocktails_by_first_letter(self, first_letter):
+            - Test listing cocktails by the first letter of their name.
+            - Executes 6 times
+
+        test_Interface.py - class TestInterface(BaseClass)
+        1. Additional test: test_get_all_cocktails(self)
+            - Scrape webpages for displayed cocktail names, do API calls with retrieved data, check for correctness
+
+
