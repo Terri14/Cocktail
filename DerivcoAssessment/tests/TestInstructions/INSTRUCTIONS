@@ -17,11 +17,11 @@ INSTRUCTIONS:
         1. test_search_ingredients_by_name(self, ingredient_name, expected_alcohol_status):
             - Test searching ingredients by name.
             - Executes 3 times
-        2. test_search_ingredients_by_name(self, ingredient_name, expected_alcohol_status):
-            - Test searching ingredients by name.
+        2. test_search_cocktails_by_name(self, cocktail_name, expected_result):
+	        - Test searching for cocktails by name using the API.
             - Executes 3 times
-        3. Additional test: test_search_cocktails_by_name(self, cocktail_name, expected_result):
-            - Test searching for cocktails by name using the API.
+        3. test_list_cocktails_by_first_letter(self, first_letter):
+            - Test listing cocktails by the first letter of their name.
             - Executes 6 times
 
         test_Interface.py - class TestInterface(BaseClass)

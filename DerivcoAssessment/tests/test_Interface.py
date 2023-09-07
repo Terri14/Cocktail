@@ -29,7 +29,8 @@ class TestInterface(BaseClass):
             for cocktail in cocktail_name:
                 data = self.api_search_cocktail_by_name(cocktail)  # API call - use names to extract drinkIds to list
                 if data['drinks'] is not None:
-                    # this may be bug, for this name, lookup by id returns additional response ('Adam Bomb' at index[0])
+                    # this may be bug, for this name: Adam & Eve ID 17226, lookup by name returns additional response
+                    # ('Adam Bomb' at index[0])
                     if cocktail == "Adam & Eve":
                         cocktail_names_with_id_list.append(
                             f"Drink_ID: {data['drinks'][1]['idDrink']} : Drink: {cocktail}")
