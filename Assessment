@@ -1,0 +1,17 @@
+Search by ingredient name
+Check if the following fields are available:
+    The system shall include a method to search by ingredient name and return the following fields:
+    Ingredient ID (string),
+    Ingredient (string),
+    Description (string),
+    Type (string),
+    Alcohol (string) and
+    ABV (string).
+    If an ingredient is non-alcoholic, Alcohol is null and ABV is null
+    If an ingredient is alcoholic, Alcohol is yes and ABV is not null
+
+Search an existing by Cocktails name
+Search a not existing by Cocktails name-(Expected Results: return drinks as null)
+
+
+WebElement elementName = driver.findElement(By.LocatorStrategy("LocatorValue"));
